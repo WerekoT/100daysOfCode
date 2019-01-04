@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   int sum=0;          //initiallise the sum of the numbers to zero
+   int n;               // declaration of the number you want to sum up to.
+   cout<<"ENTER A NUMBER TO SUM FROM 1 UPTO THAT NUMBER"<<endl; //display a message to the user to enter a number
+   cin>>n;               //take input from the user
+   for(int x=1;x<=n;x++)   //
+   {
+       sum+=x;     // perform the sum of numbers till x=n
+   }
+   cout<<"The sum of Numners from 1 to "<<n<< " is "<<sum<<endl;  //display the result of the calculation
+
+    return 0;
+}
