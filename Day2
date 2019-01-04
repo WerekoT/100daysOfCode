@@ -1,0 +1,13 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+        string Name;
+    cout << "ENTER YOUR NAME " << endl;
+    getline(cin,Name);
+    cout<<"Hello, Good Day Mr "<<Name<<endl;
+    return 0;
+}
